@@ -1,0 +1,7 @@
+.DS_Store
+
+# Generated files by hugo
+/public/
+/resources/_gen/
+hugo_stats.json
+

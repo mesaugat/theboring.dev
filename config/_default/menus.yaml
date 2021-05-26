@@ -1,0 +1,4 @@
+main:
+  - name: Ramblings
+    url: '/ramblings'
+    weight: 1
