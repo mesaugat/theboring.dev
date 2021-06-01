@@ -15,7 +15,7 @@ featuredImage:
 draft: false
 ---
 
-When you are working with computers and encounter a problem, there are situations but don't know where the problem arises. If you and your team have written a piece of software, you might figure out what the problem is and patch it up. However, we often encounter issues that we do have a solution for, but we don't know the underlying problem. These problems could have come from the code itself, the operating system, the network, an external dependency or anything else. Let's call this problem a __"You Don't Know Problem"__.
+When you are working with computers and encounter a problem, there are situations that you don't know where the problem is. If you and your team have written a piece of software, you might figure out what the problem is and patch it up. However, we often encounter issues that we have a solution for, but we don't know the underlying problem. These problems could have come from the code itself, the operating system, the network, an external dependency or anything else. Let's call this problem a __"You Don't Know Problem"__.
 
 There are two ways to go about the "You Don't Know Problem."
 
@@ -27,13 +27,11 @@ It is ok not to be able to figure out why something is working or vice-versa. It
 
 Yes, it's frustrating to be able not to find the root cause of a problem. However, recognizing that you might not know something is also an essential part of the puzzle. To accept that you don't have an answer is the right first step to go ahead and learn about it. Recently, I came across this situation myself, and I'll tell you how I learned to get to the root of the problem.
 
-First, a little bit of context, I have created a [tweet bot](https://twitter.com/bikram_sambat) that tweets a progress bar of the Nepali calendar using [unicode block elements](https://en.wikipedia.org/wiki/Block_Elements). On the first day of the new Nepali year, I noticed something strange with the progress bar. The filled progress bar had a more considerable length than the one that wasn't filled. I had never seen this because it was only happening on my computer. When I checked my phone, the length of both these progress bars was the same.
+First, a little bit of context, I have created a [tweet bot](https://twitter.com/bikram_sambat) that tweets a progress bar of the Nepali calendar using [unicode block elements](https://en.wikipedia.org/wiki/Block_Elements). On the first day of the new Nepali year, I noticed something strange with the progress bar. The [filled progress bar](https://twitter.com/bikram_sambat/status/1382034603372908550) had a more considerable length than the one [without progress](https://twitter.com/bikram_sambat/status/1382034607676219392). I had never seen this because it was only happening on my computer. More specifically, it was only happening in macOS. When I checked my phone, the length of both these progress bars was the same.
 
 █████████████████████ १००%
 
 ░░░░░░░░░░░░░░░ ०%
-
-Check out these tweets if your are in macOS, the difference in the length of progress bars is pretty signficant.
 
 I didn't know what was causing this. My very first consideration was that it might be some weird Unicode bug. After a few minutes of reading about Unicode Block Elements, I figured out that the width of the █ [full block](https://www.compart.com/en/unicode/U+2588) Unicode character was slightly larger than that of the ░ [light shade](https://www.compart.com/en/unicode/U+2591) Unicode character. I quickly realized that I had to replace the full block character with ▓ [dark shade](https://www.compart.com/en/unicode/U+2593) instead. By this time, I had already figured out the solution without finding the root cause of the problem. I assumed that the problem was with Unicode instead of trying to analyze the situation deeply. I made changes to the [code](https://github.com/mesaugat/bikram-sambat-progress/commit/7bd7490acba4728732e0bde43e13ead9cbca145a) and never bothered looking back.
 
