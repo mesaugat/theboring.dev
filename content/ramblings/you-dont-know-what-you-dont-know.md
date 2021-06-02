@@ -1,6 +1,6 @@
 ---
 title: You don't know what you don't know!
-description: Fixing the problem without knowing the problem.
+description: You don't know what you don't know until you figure it out!
 toc: true
 tags:
   - web
