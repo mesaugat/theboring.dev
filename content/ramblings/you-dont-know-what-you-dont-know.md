@@ -8,19 +8,20 @@ tags:
   - learning
 categories:
 series:
-date: "2021-05-30T21:38:00+05:45"
-lastmod: "2021-06-02T01:30:00+05:45"
+date: "2021-06-02T20:33:00+05:45"
+lastmod: "2021-06-02T20:33:00+05:45"
 featuredImage:
 draft: false
 ---
 
-When you are working with computers and encounter a problem, there are situations that you don't know where the problem is. If you and your team have written a piece of software, you might figure out what the problem is and patch it up. However, we often encounter issues that we have a solution for, but we don't know the underlying problem. These problems could have come from the code itself, the operating system, the network, an external dependency or anything else. Let's call this problem a __"You Don't Know Problem"__.
+When working with computers, we often encounter issues that we never anticipate. If you have written a piece of software, you might have faced issues where something goes haywire, but you don't know the root cause behind it. These issues could have come from the code itself, the operating system, the network, an external dependency or something else. It can often be intimidating to debug these issues because it needs a thorough root cause analysis before we can patch them. For example, let's say you have a memory leak in your code, and every so often, your backend service goes down because it is asking for more memory than what the system has. The classic makeshift solution to something like this is to turn the service off and on again, and yes, the heap is free. However, the fair resolution is to figure out that it is an actual memory leak, find the culprit code, and patch it up.
 
-There are two ways to go about the "You Don't Know Problem."
+The next question is, how do you go about this fascinating dilemma? It seems like you have a solution, but you don't. This kind of problem needs much more digging into the issue than the solution at hand. I like to call this problem "I Don't Know Problem."
 
+There are two ways to go about the "I Don't Know Problem."
 ## Be happy about the solution without thinking much about the problem
 
-It is ok not to be able to figure out why something is working or vice-versa. It's unreasonable to expect someone to know about a lot of different systems, tool and processes<sup>[[1](https://jvns.ca/blog/learn-how-things-work/#you-can-use-something-without-understanding-how-it-works-and-that-can-be-ok)]</sup>. However, if you keep skipping problems that you don't understand, you'll run into more significant issues further in your learning process. For example, you can't expect a new engineer learning React to know about the virtual DOM. They might have heard about the virtual DOM, but they don't need to understand how the virtual DOM works to write functional React code. Much later in their learning process, they will realize that virtual DOM (or reconciliation<sup>[[2](https://github.com/acdlite/react-fiber-architecture#reconciliation-versus-rendering)]</sup>) is a core React concept that helps in re-rendering apps in a performant way.
+It is ok not to be able to figure out why something is working or vice-versa. It's unreasonable to expect someone to know about a lot of different systems, tool and processes<sup>[[1](https://jvns.ca/blog/learn-how-things-work/#you-can-use-something-without-understanding-how-it-works-and-that-can-be-ok)]</sup>. However, if you keep skipping problems that you don't understand, you'll run into more significant issues further in your learning process. For example, you can't expect a new engineer learning React to know about the [Virtual DOM](https://reactjs.org/docs/faq-internals.html). They might have heard about the Virtual DOM, but they don't need to understand how the virtual DOM works to write functional React code. Much later in their learning process, they will realize that Virtual DOM (or reconciliation<sup>[[2](https://github.com/acdlite/react-fiber-architecture#reconciliation-versus-rendering)]</sup>) is a core React concept that helps in re-rendering apps in a performant way.
 
 ## Be curious about why you couldn't figure out the problem
 
@@ -42,7 +43,7 @@ Sometimes the problem at hand can trick you into thinking that you are not smart
 
 <blockquote class="twitter-tweet"><p lang="und" dir="ltr">▓▓░░░░░░░░░░░░░ १३%</p>&mdash; बिक्रम संवत (@bikram_sambat) <a href="https://twitter.com/bikram_sambat/status/1399229903933947905?ref_src=twsrc%5Etfw">May 31, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-After a month, I decided to learn about Unicode a little bit more so that I had at least some context as to why the Unicode progress bar had varied length despite having the same number of blocks or glyphs. After spending a few minutes reading about Unicode blocks, I came across the wiki page that I had gone through previously. I was so concerned about the width of the full block last time that I didn't even read anything in the wiki. It just seemed like an extensive list of all block characters and nothing else. However, as I scrolled through, I came across the "[Font coverage](https://en.wikipedia.org/wiki/Block_Elements#Font_coverage)" section of the document. Here is what it read:
+After a month, I decided to learn about Unicode a little bit more so that I had at least some context as to why the Unicode progress bar had varied length despite having the same number of blocks or glyphs. After spending a few minutes reading about Unicode blocks, I came across the wiki page that I had gone through previously. I was so concerned about the width of the full block last time that I didn't even read anything in the wiki. It just seemed like an extensive list of block characters and nothing else. However, as I scrolled through, I came across the "[Font coverage](https://en.wikipedia.org/wiki/Block_Elements#Font_coverage)" section of the document. Here is what it read:
 
 > "Font sets like Code2000 and the DejaVu family—include coverage for each of the glyphs in the Block Elements range, Unifont also contains all the glyphs. Among the fonts in widespread use, full implementation is provided by Segoe UI Symbol."
 
