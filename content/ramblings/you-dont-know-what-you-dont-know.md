@@ -7,7 +7,6 @@ tags:
   - tech
   - learning
 categories:
-  - Problem Solving
 series:
 date: "2021-05-30T21:38:00+05:45"
 lastmod: "2021-06-02T01:30:00+05:45"
@@ -29,7 +28,7 @@ Yes, it's frustrating to be able not to find the root cause of a problem. Howeve
 
 First, a little bit of context, I have created a [tweet bot](https://twitter.com/bikram_sambat) that tweets a progress bar of the Nepali calendar using [unicode block elements](https://en.wikipedia.org/wiki/Block_Elements). On the first day of the new Nepali year, I noticed something strange with the progress bar. The [filled progress bar](https://twitter.com/bikram_sambat/status/1382034603372908550) had a more considerable length than the one [without progress](https://twitter.com/bikram_sambat/status/1382034607676219392). I had never seen this because it was only happening on my computer. More specifically, it was only happening in macOS. When I checked my phone, the length of both these progress bars was the same.
 
-█████████████████████ १००%
+█████████████████ १००%
 
 ░░░░░░░░░░░░░░░ ०%
 
@@ -62,6 +61,6 @@ Isn't this statement as clear as daylight? The problem was that the width of the
 
 ![Full block character font comparison](/gifs/full-block-character-comparison.gif "Full block character font comparison")
 
-Often, the assumptions that we make while debugging a problem change as we go ahead and learn more about it. Problems will look like a black box at first and slowly start to make sense once you connect the dots. This problem was a trivial example of something fundamental that I should’ve known but had to figure out. However, the learning doesn’t end here. I might need to learn about proportional and non-proportional fonts in the future or learn more about typography and how fonts work. All of that wasn’t required this time. As you start to work on complex problems with many integrations, the entropy increases so much that you have to break problems into smaller chunks and understand how things work.
+Often, the assumptions that we make while debugging a problem changes as we go ahead and learn more about it. Problems will look like a black box at first and slowly start to make sense once you connect the dots. This problem was a trivial example of something fundamental that I should’ve known but had to figure out. However, the learning doesn’t end here. I might need to learn about proportional and non-proportional fonts in the future or learn more about typography and how fonts work. All of that wasn’t required this time. As you start to work on complex problems with many integrations, the entropy increases so much that you have to break problems into smaller chunks and understand how things work.
 
 So it goes like this, __"You don't know what you don't know until you figure it out!"__
