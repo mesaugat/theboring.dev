@@ -3,7 +3,7 @@ title: Saugat Acharya
 draft: false
 role: Principal Engineer
 avatar: images/mesaugat.jpg
-bio: The domain name often reflects my feelings.
+bio: Yes, I got bored and this happened!
 organization:
   name: Leapfrog Technology
   url: https://lftechnology.com
