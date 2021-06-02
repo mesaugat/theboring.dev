@@ -1,4 +1,4 @@
-module github.com/mesaugat/theunhappy.dev
+module github.com/mesaugat/theboring.dev
 
 go 1.16
 

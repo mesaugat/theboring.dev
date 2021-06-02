@@ -1,6 +1,6 @@
-baseURL = "https://theunhappy.dev/"
+baseURL = "https://theboring.dev/"
 languageCode = "en-us"
-title = "The Unhappy Dev"
+title = "The Boring Dev"
 
 [module]
 

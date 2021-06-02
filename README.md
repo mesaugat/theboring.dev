@@ -1,3 +1,3 @@
-# theunhappy.dev
+# theboring.dev
 
-A place to [ramble](https://theunhappy.dev) about tech.
+A place to [ramble](https://theboring.dev) about tech.

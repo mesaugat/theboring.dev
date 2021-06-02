@@ -1,12 +1,12 @@
 baseURL: /
-title: theunhappy.dev
+title: theboring.dev
 icon: images/icon.png
 
 theme: github.com/wangchucheng/hugo-eureka
 
 paginate: 3
 copyright: >
-  &copy; 2021 <a href="https://theunhappy.dev/">theunhappy.dev</a>
+  &copy; 2021 <a href="https://theboring.dev/">theboring.dev</a>
 enableEmoji: true
 enableGitInfo: false
 summaryLength: 75
