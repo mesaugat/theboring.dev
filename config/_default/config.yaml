@@ -2,7 +2,7 @@ baseURL: /
 title: theboring.dev
 icon: images/icon.png
 
-theme: github.com/wangchucheng/hugo-eureka
+theme: github.com/mesaugat/hugo-boring
 
 paginate: 3
 copyright: >

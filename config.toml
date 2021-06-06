@@ -5,4 +5,4 @@ title = "The Boring Dev"
 [module]
 
 [[module.imports]]
-path = "github.com/wangchucheng/hugo-eureka"
+path = "github.com/mesaugat/hugo-boring"
