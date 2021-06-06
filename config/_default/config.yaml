@@ -15,9 +15,6 @@ defaultContentLanguage: en
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: false
 
-# Uncomment for google analytics
-# googleAnalytics: UA-123-45
-
 markup:
   # Do not modify markup.highlight
   highlight:
