@@ -1,7 +1,7 @@
 ---
 title: You don't know what you don't know!
 description: You don't know what you don't know until you figure it out!
-toc: true
+toc: false
 tags:
   - web
   - tech
