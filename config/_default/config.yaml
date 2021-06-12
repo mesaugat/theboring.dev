@@ -6,7 +6,7 @@ theme: github.com/mesaugat/hugo-boring
 
 paginate: 3
 copyright: >
-  &copy; 2021 <a href="https://theboring.dev/">theboring.dev</a>
+  &copy; 2021 &middot; <a href="https://theboring.dev/">theboring.dev</a>
 enableEmoji: true
 enableGitInfo: false
 summaryLength: 75
