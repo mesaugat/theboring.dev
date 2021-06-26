@@ -9,7 +9,7 @@ tags:
 categories:
 series:
 date: "2021-06-02T20:33:00+05:45"
-lastmod: "2021-06-02T20:33:00+05:45"
+lastmod: "2021-07-27T01:26:00+05:45"
 featuredImage:
 draft: false
 ---
@@ -34,10 +34,6 @@ First, a little bit of context, I have created a [tweet bot](https://twitter.com
 ░░░░░░░░░░░░░░░ ०%
 
 I didn't know what was causing this. My very first consideration was that it might be some weird Unicode bug. After a few minutes of reading about Unicode Block Elements, I figured out that the width of the █ [full block](https://www.compart.com/en/unicode/U+2588) Unicode character was slightly larger than that of the ░ [light shade](https://www.compart.com/en/unicode/U+2591) Unicode character. I quickly realized that I had to replace the full block character with ▓ [dark shade](https://www.compart.com/en/unicode/U+2593) instead. By this time, I had already figured out the solution without finding the root cause of the problem. I assumed that the problem was with Unicode instead of trying to analyze the situation deeply. I made changes to the [code](https://github.com/mesaugat/bikram-sambat-progress/commit/7bd7490acba4728732e0bde43e13ead9cbca145a) and never bothered looking back.
-
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ १००%
-
-░░░░░░░░░░░░░░░ ०%
 
 Sometimes the problem at hand can trick you into thinking that you are not smart enough. That is what happened here. I felt that I wasn't smart enough to look into the Unicode spec or figure out how Unicode works. After all, learning an entirely new thing often feels overwhelming. It meant that I didn't look into the problem again for a while. Everything was working fine now.
 
