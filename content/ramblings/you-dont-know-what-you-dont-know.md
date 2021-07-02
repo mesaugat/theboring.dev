@@ -37,7 +37,9 @@ I didn't know what was causing this. My very first consideration was that it mig
 
 Sometimes the problem at hand can trick you into thinking that you are not smart enough. That is what happened here. I felt that I wasn't smart enough to look into the Unicode spec or figure out how Unicode works. After all, learning an entirely new thing often feels overwhelming. It meant that I didn't look into the problem again for a while. Everything was working fine now.
 
-<blockquote class="twitter-tweet"><p lang="und" dir="ltr">▓▓░░░░░░░░░░░░░ १३%</p>&mdash; बिक्रम संवत (@bikram_sambat) <a href="https://twitter.com/bikram_sambat/status/1399229903933947905?ref_src=twsrc%5Etfw">May 31, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>
+{{< tweet 1399229903933947905 >}}
+</p>
 
 After a month, I decided to learn about Unicode a little bit more so that I had at least some context as to why the Unicode progress bar had varied length despite having the same number of blocks or glyphs. After spending a few minutes reading about Unicode blocks, I came across the wiki page that I had gone through previously. I was so concerned about the width of the full block last time that I didn't even read anything in the wiki. It just seemed like an extensive list of block characters and nothing else. However, as I scrolled through, I came across the "[Font coverage](https://en.wikipedia.org/wiki/Block_Elements#Font_coverage)" section of the document. Here is what it read:
 
@@ -47,8 +49,7 @@ The section further talked about supported fonts and how ASCII space may not mat
 
 __Boom!__
 
-<!-- TODO: Add support for figcaption -->
-![Font differences with unicode progress bars](/gifs/what-the-font.gif "Font differences with unicode progress bars")
+{{< figure src="/gifs/what-the-font.gif" alt="Font differences with unicode progress bars" >}}
 
 Furthermore, the [Unicode Consortium](https://unicode.org), in their standard document about [Block Elements](https://unicode.org/charts/PDF/U2580.pdf) states:
 
@@ -56,7 +57,7 @@ Furthermore, the [Unicode Consortium](https://unicode.org), in their standard do
 
 Isn't this statement as clear as daylight? The problem was that the width of the full block glyph in Helvetica Neue was slightly larger compared to Arial. GGs.
 
-![Full block character font comparison](/gifs/full-block-character-comparison.gif "Full block character font comparison")
+{{< figure src="/gifs/full-block-character-comparison.gif" alt="Arial and Helvetica Neue full block character comparison" >}}
 
 Often, the assumptions that we make while debugging a problem changes as we go ahead and learn more about it. Problems will look like a black box at first and slowly start to make sense once you connect the dots. This problem was a trivial example of something fundamental that I should’ve known but had to figure out. However, the learning doesn’t end here. I might need to learn about proportional and non-proportional fonts in the future or learn more about typography and how fonts work. All of that wasn’t required this time. As you start to work on complex problems with many integrations, the entropy increases so much that you have to break problems into smaller chunks and understand how things work.
 
