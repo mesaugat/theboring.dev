@@ -1,5 +1,5 @@
 ---
-title: Recent Ramblings
+title:
 draft: false
 # Section you want to display
 section: ramblings
