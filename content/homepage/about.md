@@ -1,11 +1,11 @@
 ---
 title: Saugat Acharya
 draft: false
-role: Principal Engineer
+role: Software Engineer
 avatar: images/mesaugat.jpg
-bio: Yes, I got bored and this happened!
+bio: My bored thoughts on tech!
 organization:
-  name: Leapfrog Technology
+  name: Not The Boring Company
   url: https://lftechnology.com
 social:
   - icon: github
