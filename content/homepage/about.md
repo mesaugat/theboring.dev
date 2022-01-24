@@ -3,7 +3,7 @@ title: Saugat Acharya
 draft: false
 role: Software Engineer
 avatar: images/mesaugat.jpg
-bio: My bored thoughts on tech!
+bio: My boring thoughts on tech!
 organization:
   name: Not The Boring Company
   url: https://lftechnology.com
