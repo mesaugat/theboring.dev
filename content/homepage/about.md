@@ -8,6 +8,9 @@ organization:
   name: Not The Boring Company
   url: https://lftechnology.com
 social:
+  - icon: envelope
+    iconPack: fas
+    url: mailto:hello@theboring.dev
   - icon: github
     iconPack: fab
     url: https://github.com/mesaugat
