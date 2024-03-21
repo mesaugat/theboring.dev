@@ -6,7 +6,7 @@ avatar: images/mesaugat.jpg
 bio: My boring thoughts on tech!
 organization:
   name: Not The Boring Company
-  url: https://lftechnology.com
+  url: https://laudio.com
 social:
   - icon: envelope
     iconPack: fas
