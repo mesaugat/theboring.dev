@@ -38,7 +38,7 @@ I didn't know what was causing this. My very first consideration was that it mig
 Sometimes the problem at hand can trick you into thinking that you are not smart enough. That is what happened here. I felt that I wasn't smart enough to look into the Unicode spec or figure out how Unicode works. After all, learning an entirely new thing often feels overwhelming. It meant that I didn't look into the problem again for a while. Everything was working fine now.
 
 <p>
-{{< tweet 1399229903933947905 >}}
+    {{< x user="acharya_saugat" id="1399229903933947905" >}}
 </p>
 
 After a month, I decided to learn about Unicode a little bit more so that I had at least some context as to why the Unicode progress bar had varied length despite having the same number of blocks or glyphs. After spending a few minutes reading about Unicode blocks, I came across the wiki page that I had gone through previously. I was so concerned about the width of the full block last time that I didn't even read anything in the wiki. It just seemed like an extensive list of block characters and nothing else. However, as I scrolled through, I came across the "[Font coverage](https://en.wikipedia.org/wiki/Block_Elements#Font_coverage)" section of the document. Here is what it read:
