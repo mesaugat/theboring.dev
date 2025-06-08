@@ -3,7 +3,7 @@ title: Saugat Acharya
 draft: false
 role: Software Engineer
 avatar: images/mesaugat.jpg
-bio: My boring thoughts on tech!
+bio: My boring thoughts on tech and life!
 organization:
   name: Not The Boring Company
   url: https://laudio.com
@@ -16,7 +16,7 @@ social:
     url: https://github.com/mesaugat
   - icon: twitter
     iconPack: fab
-    url: https://twitter.com/acharya_saugat
+    url: https://x.com/acharya_saugat
   - icon: rss
     iconPack: fas
     url: index.xml

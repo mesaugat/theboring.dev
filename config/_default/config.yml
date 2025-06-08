@@ -4,9 +4,10 @@ icon: images/icon.png
 
 theme: github.com/mesaugat/hugo-boring
 
-paginate: 3
+pagination:
+  pagerSize: 5
 copyright: >
-  &copy; 2021 &middot; <a href="https://theboring.dev/">theboring.dev</a>
+  &copy; 2025 &middot; <a href="https://theboring.dev/">theboring.dev</a>
 enableEmoji: true
 enableGitInfo: false
 summaryLength: 75
@@ -35,4 +36,4 @@ taxonomies:
   author: authors
 
 build:
-  useResourceCacheWhen: always
+  useResourceCacheWhen: fallback
